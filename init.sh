@@ -1,3 +1,5 @@
+#!/bin/sh
+
 if [ "$REMOTE" != "true" ]; then
 	ssh \
 		-vv \
